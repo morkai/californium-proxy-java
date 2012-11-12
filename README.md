@@ -7,8 +7,7 @@ It's a companion to the node.js client available at
 
 ## License
 
-This project and all of its dependencies are released under
-the [MIT License](http://opensource.org/licenses/mit-license.php). 
+This project is released under the [MIT License](http://opensource.org/licenses/mit-license.php).
 
 ## Requirements
 
