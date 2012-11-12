@@ -37,15 +37,13 @@ public class CoapProxyServer implements ServerSocketObserver
       
       String propertyValue = args[i + 1];
       
-      switch (propertyName)
+      if (propertyName == "--port")
       {
-        case "--port":
-          port = Integer.parseInt(propertyValue);
-          break;
-        
-        case "--log":
-          logLevel = Level.parse(propertyValue.toUpperCase());
-          break;
+        port = Integer.parseInt(propertyValue);
+      }
+      else if (propertyName == "--log")
+      {
+        logLevel = Level.parse(propertyValue.toUpperCase());
       }
     }
     
