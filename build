@@ -1,0 +1,11 @@
+#!/bin/sh
+OLD_CD=`pwd`/
+cd `dirname $0`
+rm -rf out &> /dev/null
+mkdir out
+javac -cp ./lib/morkai-californium-0.8.4-SNAPSHOT.jar:./lib/naga-no-em-3_0.jar -d ./out ./src/*.java
+cd out
+jar cvfm ../run/cf-proxy.jar ../MANIFEST.MF *.class
+cd ..
+rm -rf out
+cd $OLD_CD
