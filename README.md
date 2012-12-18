@@ -44,7 +44,7 @@ on Linux.
 
 Alternatively, use the bundled executable JAR:
 ```
-java -jar califorium-proxy-java/run/cf-proxy-0.0.1.jar
+java -jar califorium-proxy-java/run/cf-proxy-0.0.2.jar
 ```
 
 By default, the TCP server will listen on port `1337` and output
@@ -57,7 +57,7 @@ Use `OFF` to disable all messages.
 
 For example, to silently listen on port `3000`:
 ```
-java -jar califorium-proxy-java/run/cf-proxy-0.0.1.jar --port 3000 --log OFF
+java -jar califorium-proxy-java/run/cf-proxy-0.0.2.jar --port 3000 --log OFF
 ```
 
 ## Protocol

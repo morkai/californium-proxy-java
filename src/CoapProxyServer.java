@@ -29,7 +29,7 @@ public class CoapProxyServer implements ServerSocketObserver
     for (int i = 0, l = args.length; i < l; i += 2)
     {
       String propertyName = args[i];
-      
+
       if (i + 1 == l)
       {
         break;
@@ -37,11 +37,11 @@ public class CoapProxyServer implements ServerSocketObserver
       
       String propertyValue = args[i + 1];
       
-      if (propertyName == "--port")
+      if (propertyName.equals("--port"))
       {
         port = Integer.parseInt(propertyValue);
       }
-      else if (propertyName == "--log")
+      else if (propertyName.equals("--log"))
       {
         logLevel = Level.parse(propertyValue.toUpperCase());
       }
