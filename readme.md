@@ -5,10 +5,6 @@ A TCP server acting as a proxy to
 It's a companion to the node.js client available at
 [californium-proxy-node](https://github.com/morkai/californium-proxy-node).
 
-## License
-
-This project is released under the [MIT License](http://opensource.org/licenses/mit-license.php).
-
 ## Requirements
 
 ### Java
@@ -80,3 +76,8 @@ Where:
 See [Proxy.js](https://github.com/morkai/californium-proxy-node/blob/master/lib/Proxy.js)
 from the [californium-proxy-node](https://github.com/morkai/californium-proxy-node)
 project for an example implementation.
+
+## License
+
+This project is released under the
+[MIT License](https://raw.github.com/morkai/californium-proxy-java/master/license.md).
